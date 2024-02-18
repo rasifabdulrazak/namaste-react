@@ -1,7 +1,7 @@
-const heading = React.createElement("h1", { id: "head" }, "Namster React");
-const root = ReactDOM.createRoot(document.getElementById("root"));
+const heading1 = React.createElement("h1", { id: "head" }, "Namster React");
+const root1 = ReactDOM.createRoot(document.getElementById("root"));
 // root.render(heading);
-console.log(heading); // object
+console.log(heading1); // object
 
 // Nested elemnst structure
 const parent = React.createElement(
@@ -13,4 +13,4 @@ const parent = React.createElement(
   ])
 );
 
-root.render(parent);
+root1.render(parent);
