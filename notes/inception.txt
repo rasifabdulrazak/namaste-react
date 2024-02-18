@@ -1,0 +1,17 @@
+1. document,innehtml,createelement etc are the superpowres browser already have
+2. browser did not understand react, so we have to iject into our app
+3. Content delivery network (A content delivery network (CDN) is a group of geographically distributed servers that speed up the delivery of web content by bringing it closer to where users are.)
+4. we inject react through cdn links
+5. This link just contains some js codes and functions written by facebbok developers
+6. cdn ? why cdn ? what it do ? etcc....
+7. crossorigin (When you include a script from a different domain (like in your example with https://unpkg.com), the browser checks for specific headers sent by the server to determine if it's safe to load the script. The crossorigin attribute tells the browser to follow the CORS protocol and respect the server's response.)
+8. when we import cdn all the react code will be awailable for us
+9. React dom is for what? (for dom...like react native js etc..)
+10.React development (core react)
+11.createElement(tag_name(eg:h1,div etx),{attributes},content) =>JS object, contains props(childres and attributes)
+12.CreateRoot(react dom)
+13.root.render(renders) => convert element object to and h1 tag and put it in root
+14.DOM is important in web browser
+15.ReactElement(object)=>HTML(Browser understand)
+16.Order of the script tags is important
+17.library and framework (react is library=> can work in specific part)
