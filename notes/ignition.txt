@@ -1,0 +1,58 @@
+-npx create-react-app give us completely react app ..we can create it our own 
+-its diffrent libraries make react faster
+
+npm:
+======
+-its not node package manager it doesnt have a full form..it manages packages
+-its a standard repositry for packages..alll packages are hosted over there
+-after init ing npm its gives package.json to our app
+======
+
+Bundlers:
+==========
+-The most important package in our project is a BUNDLER (webpack,parcel,vite,etc..) [Home](https://snipcart.com/blog/javascript-module-bundler)
+-we use parcel..it will ignite our app..parcel give strength to our app
+-npm install -D parcel (-D indicates dev dependency)
+-There are 2 dependencies...Normal and dev dependencies..dev dependecy only needed for development.
+-parcel is a beast
+- The ^ sign indicates 
+  * ~version “Approximately equivalent to version”, will update you to all future patch versions, without incrementing the minor version. ~1.2.3 will use releases from 1.2.3 to <1.3.0.
+  * ^version “Compatible with version”, will update you to all future minor/patch versions, without incrementing the major version. ^1.2.3 will use releases from 1.2.3 to <2.0.0.
+-always safe to put ^ ..which will only install minor versions
+
+package.json and package.lock.json
+=====================================
+-package.json is configure of npm and all version used
+-package.lock.json tells every exact version used and installed
+
+node_modules:
+==============
+-its contains actual data and its dependency...somany files and folder come becuase every package has its dependencies so it isntalled evertying
+-its like a kind of database with all packages
+
+parcel (https://parceljs.org/)
+=========
+-we will use parcel in this
+-parcel has its own dependencies
+-there will be a dependensy tree
+-we will not put node modules in production or git
+-we will put it in gitignore
+-we should push package json files to git , becuase it contains all version and modules used
+-if we have package json files we can recreate our nodemodules
+-npx parcel <filename> :=> runs or execute our server in port 1234
+-npx means executing our package
+-cdn links is not a good way to build reaact app(changes url when updations, calling another network etc..)
+-auto render on refresh is done by parcel
+-it created a dev build and server for us
+-HMR=>Hot module replacement (parcel track all files)
+-it has a file wacthing algorithm (written in C++)
+-parcel caches everthything what we do in parcel-cache files
+-Parcel do image optimisation
+-Minification of file (Bundling)
+-compress the files
+-consistent hashing
+-Diffrential bundlling (To support older browsers)
+-Daignostics
+-Better error handling
+-give https support
+-Tree shaking (remove unused codes)
