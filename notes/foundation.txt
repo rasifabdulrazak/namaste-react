@@ -1,0 +1,51 @@
+Scripts:
+==========
+-"scripts": {
+    "start":"parcel index.html",
+  }, this will create a start command for starting our project in dev mode 
+-<npm run start> and <npm start> do the same
+-we can add this like in the script for build also
+-these are keywords reserved by npm
+-behind scene it execute parcel as given in package.json file
+
+
+React Elements:
+===================
+-its a Js object
+-when we render this element to DOM its becomes an html element
+-React.CreateElement() => creates an JS object
+-when we do ReactDOM.createRoot().render() its make its html
+
+JSX:
+=============
+-jsx is not part of react
+-there is a big diffrence
+-we can write react without jsx
+-jsx make us easy to write react
+-It is called JSX, and it is a syntax extension to JavaScript. 
+We recommend using it with React to describe what the UI should look like. 
+JSX may remind you of a template language, but it comes with the full power of JavaScript.
+-its html like syntax or xml like syntax 
+-its not a valid javascript (this is not pure javascript), js engine cannot jsx..its only understand ecma scripts
+-parcel is doing the job behind the scenes of making js engine undertsand the jsx
+-jsx code is transpiled before it reaches to js engine
+-transpiling is done by parcel (by package named babel)
+-in jsx anywhere we write curly braces ({}) we can write any js code inside it
+-jsx takes care of injection attack (it sanitizes the data, prevent cross site scripting)
+
+Babel:(https://babeljs.io/)
+============
+-its a normal js package
+-Babel is transpiling the code
+-Babel is a JavaScript compiler.
+-it make jsx understand by js engine
+-JSX => React.CreateElement() => ReactElement(js object) => HtmlElement(render)
+-this conversion is done by Babel
+-Babel does a lot off transpilation
+
+React Components :
+=====================
+-There are 2 type of components (Class based component(old-way), Functional component)
+-These are just a normal js function return some jsx or a react element
+-Component Composition : component inside another component is called component composotion
+-

@@ -4,6 +4,7 @@
   "description": "namaste-react learning",
   "main": "App.js",
   "scripts": {
+    "start":"parcel index.html",
     "test": "jest"
   },
   "repository": {
