@@ -56,3 +56,7 @@ parcel (https://parceljs.org/)
 -Better error handling
 -give https support
 -Tree shaking (remove unused codes)
+
+Browserlist (https://browserslist.dev/)
+===========
+-a helpful tool 
